@@ -1,0 +1,16 @@
+/* Colors and fonts */
+<style>
+body {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+</style>
+
+<pre><code class="language-javascript">function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+greet("John"); // Output: Hello, John!
+</code></pre>

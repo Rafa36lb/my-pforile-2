@@ -1,0 +1,63 @@
+/* Colors and fonts */
+body {
+  background-color: grey;
+  color: black;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+a {
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	color: black
+}
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: Roboto, sans-serif; 
+}
+
+</style>
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 60px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 40px 0px;
+  text-align: center;
+  width: auto;
+}
+
+.img-rectangle {
+  border-radius: 0; /* Remove any border radius to ensure a perfect rectangle */
+  width: 200px;  /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+
+.btn-grey {
+  background-color: lightgray; /* Example gray color */
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer; /* Optional: Indicate the element is a clickable button */
+}
+
+.fa-brands.fa-square-instagram,
+.fa-brands.fa-square-snapchat,
+.fa-brands.fa-tiktok {
+  /* Styles for your icons here */
+  font-size: 50px;
+}
+
+#introduction p {
+   margin-bottom: 40px;
+}
